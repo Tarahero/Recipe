@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+
+body { background-image: url();
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#image {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#bgimg {
+    width: 100%;
+}
+
+#weltext {
+    position: absolute;
+    color: lightgreen;
+    margin: 5%;
+    font-size: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+#rectext {
+    position: absolute;
+    color: aquamarine;
+    margin: 45%;
+    margin-top: 55%;
+    -webkit-text-stroke: 0.25px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 50%;
+    margin: 7% 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.textbox {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#btnSubmit {
+    background-color: transparent;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px 25%;
+    align-items: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.recipeTitle {
+    padding: 15px;
+    text-align: center;
+}
+
+.left{
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+
+.rightimg{
+    width: 40%;
+    float: left;
+}
+
+.recipebook_tit{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: rgb(243, 243, 240);
+    text-align: center;
+}
+
+.main_head{
+    background-image: url(chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg);
+}
+
+.main_head h1{
+    color: black;
+}
+
+.main_head h1:hover{
+    transition: .5s;
+    text-shadow: #777;
+    color: #777;
+}
+
+
+.mainbody{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+@media screen and (max-aspect-ratio:16/9){
+
+    .mainbody{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+    }
+
+    .recipebook_tit{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: rgb(243, 243, 240);
+        text-align: center;
+    }
+
+}
+

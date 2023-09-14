@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_div a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+.main_div a:hover{
+    cursor: pointer;
+    color: rgb(23, 132, 182);
+}
+
+
+
+.main_div{
+  font-size: 20px;
+   
+   height: 30px;
+    
+    padding-top: 10px;
+    
+    
+    border-color: rgb(18, 20, 18);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.search{
+    display: inline-block;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    border-radius: 20px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #363b3f;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #3a5e77;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.homebtn{
+   padding-left: 20px;
+    display: inline-block;
+}
+
+
+.recipebtn{
+    
+    display: inline-block;
+}
+
+.aboutbtn{
+    display: inline;
+    
+}
+
+.homevideo{
+  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 65px;
+ 
+}
